@@ -1,9 +1,30 @@
+@keyframes MoveDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-3000vw);
+  }
+}
+
+@keyframes MoveLeft {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-3000vw);
+  }
+}
+
 
 body {
   background-color: black;
   font-family: 'Times', Times, serif;
   color: white;
-  margin: 10px;
+  margin: 0!important;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -30,25 +51,56 @@ li {
 .header {
   position: fixed;
   width: auto;
+  z-index: 99
+}
+
+.logo {
+  position: fixed;
+  height: 100vh;
+  width: 4vw;
+  border-right: dashed 1px white;
+  background-color: black;
+  z-index: 90;
+  overflow: hidden;
+  z-index: 100
+}
+
+
+.logo h1 {
+  animation: MoveDown 1000s infinite linear;
+    writing-mode: vertical-lr;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+.header {
+  background-color: black;
+  border-bottom: dashed 1px white;
+  width: 100vw;
 }
 
 .menu {
-  margin: 0;
   padding: 0;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-style: italic;
   display: flex;
   justify-content: space-between;
+  font-size: 18px;
+  width: 80%;
+  margin: 10px auto;
 }
 
-main {
-  padding-top: 10vh
+.menu li {
+  transform: skewX(-10deg);
 }
-
 
 a {
   color: white;
   text-decoration: none;
+}
+
+li:hover {
+      transform: skew(-6deg);
 }
 
 li:hover a {
@@ -77,16 +129,27 @@ h1 {
   background-repeat: no-repeat;
 }
 
+.releases, .trilhas, .featurings {
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+
 .releases-list, .trilhas-list, .featurings-list {
   z-index: 2;
+  width: 50%;
+  margin: 8vh auto 10vh;
 }
 
 
 .releases-list h2, .trilhas-list h2, .featurings-list h2 {
-  font-size: 50px;
+  font-size: 80px;
+  margin: 0;
+  color: white;
   font-style: italic;
   text-align: center;
   text-transform: uppercase;
+  transform: skewX(-12deg);
 }
 
 .releases-list ul, .trilhas-list ul, .featurings-list ul {
@@ -101,8 +164,7 @@ h1 {
 .releases-list h3, .trilhas-list h3, .featurings-list h3 {
   font-size: 34px;
   margin-top: 0;
-  border-bottom: dotted 1px rgba(270, 237, 277, 0.4);
-  text-align: right;
+  text-align: center;
   font-style: italic;
 }
 
@@ -111,7 +173,18 @@ h1 {
   list-style-type: none;
 }
 
-.releases-list a, .trilhas-list a, .featurings-list a {
+.releases-list li a, .trilhas-list li a, .featurings-list a {
+  display: flex;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: dashed 1px white;
+}
+
+ .trilhas-list a, .featurings-list a {
   text-align: right;
 }
 
@@ -121,24 +194,34 @@ h1 {
   list-style-type: none;
 }
 
-.release-name {
-  font-style: italic;
+
+.trilhas-list a:hover .trilha-name, .featurings-list a:hover .featuring-name {
+  text-align: left;
 }
 
-.artist-name {
-  font-weight: 800;
-  font-size: 14px;
+.trilhas-list a:hover .artist-name, .featurings-list a:hover .artist-name {
+  display: none;
 }
 
 .trilhas-list a:hover .trilha-info,
-.releases-list a:hover .label-info,
 .featurings-list a:hover .credit-info {
+  text-transform: lowercase;
+  text-align: right;
   opacity: 82%;
+  display: block;
   transition: 0.5s ease;
+  border-bottom: none;
 }
 
+.year h3 {
+  font-weight: 100;
+  font-size: 22px;
+  transform: skewX(-36deg)
+}
+
+
 .trilha-info, .label-info, .credit-info {
-  opacity: 0;
+    display: none;
 }
 
 .sobre {
@@ -148,18 +231,137 @@ h1 {
 }
 
 .sobre div {
-  width: 50%;
+  width: 30%;
   margin: 20vh auto;
 }
 
+.release-geral {
+  margin-bottom: 30px;
+}
+
+.release-info h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 0
+}
+
+.release-info h3 {
+  font-size: 35px;
+  opacity: 77%;
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 0;
+  transform: skew(-10deg);
+}
+
+.release-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.release-box div {
+  width: 50%;
+  margin: auto;
+}
+
+.release-box ol {
+  padding: 0;
+}
+
+
+.release-image {
+  display: block;
+}
+
+
+
+.release-image img {
+  width: 400px;
+  height: 400px;
+   margin: auto;
+   opacity: 100;
+}
+
+.alternative-cover {
+  display: none;
+}
+
+.release-image:hover .alternative-cover {
+  display: block;
+}
+
+.release-image:hover .original-cover {
+  display: none;
+}
+
+
+
+.embed {
+  padding-top: 20px;
+}
+
+.embed a {
+  border-bottom: solid 1px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  border-top: dashed 1px white;
+  background-color: black;
+  width: 100vw;
+  overflow: hidden;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+
+.footer span {
+  text-transform: uppercase;
+  margin: 10px 0;
+  font-style: italic;
+  font-size: 20px;
+  white-space: nowrap;
+  margin: 20px 0;
+  animation: MoveLeft 900s infinite linear
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 600px) {
+
+  li hover {
+    transform: skew(0deg, 0deg);
+  }
 
   .mobile-header {
     display: block;
       position: fixed;
       left: -10px;
-      top: 18vh;
+      top: 15vh;
       border: dotted 1px white;
   }
 
@@ -178,6 +380,10 @@ h1 {
     font-style: italic;
   }
 
+  .logo {
+    display: none;
+  }
+
   .header {
     display: none;
   }
@@ -186,18 +392,68 @@ h1 {
       padding-top: 0
     }
 
+  .photo-area {
+    opacity: 1%
+  }
+
+.ul {
+    margin-top: 100px!important;
+  }
+
+  .releases-list h2,
+  .trilhas-list h2,
+  .featurings-list h2 {
+  font-size: 42px;
+  border-bottom: solid 1px white;
+  margin: 0;
+  transform: translate(0);
+  background-color: black;
+  z-index: 20;
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  padding: 10px 0;
+  text-align: center;
+
+  }
+
+    .releases-list,
+    .trilhas-list,
+    .featurings-list {
+      margin: -10vh;
+
+    }
+
+
+
     .releases-list div,
     .trilhas-list div,
     .featurings-list div {
       padding: 0
     }
 
+    .releases-list li a {
+      display: block;
+      border-bottom: none;
+    }
+
   .releases-list h3, .trilhas-list h3, .featurings-list h3 {
     display: none;
   }
 
+  .releases-list li a, .trilhas-list li a, .featurings-list a {
+    display: block;
+    border-bottom: none;
+    }
+
+
   .releases-list a, .trilhas-list a, .featurings-list a {
     text-align: center;
+    border-bottom: none;
+  }
+
+  .release-name, .trilha-name, .featuring-name {
+    font-size: 25px;
   }
 
   .label-info, .trilha-info, .credit-info {
@@ -206,6 +462,56 @@ h1 {
 
   .sobre div {
     margin: 16vh auto;
+    width: 70%;
+    font-size: 15px;
+    text-align: right;
   }
+
+  .release {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .release-image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .release-box {
+    display: block;
+    padding: 50px;
+  }
+
+  .release-box div {
+    width: 100%;
+  }
+
+
+
+.trilhas-list a:hover .trilha-name {
+  text-align: center;
+}
+
+.trilhas-list a:hover .artist-name {
+  display: none;
+}
+
+.trilhas-list a:hover .trilha-info {
+  text-align: center;
+}
+
+.release-geral {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.release-info h2 {
+  font-size: 32px;
+}
+
+.release-info h3 {
+  font-size: 28px;
+}
+
 
 }
