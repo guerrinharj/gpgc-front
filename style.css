@@ -193,6 +193,7 @@ h1 {
   margin: 2px 0px 5px;
   padding: 0;
   list-style-type: none;
+  text-align: right;
 }
 
 
@@ -366,7 +367,6 @@ h1 {
     display: block;
       position: fixed;
       left: -10px;
-      top: 15vh;
       border: dotted 1px white;
   }
 
@@ -374,7 +374,7 @@ h1 {
     display: flex;
     writing-mode: vertical-lr;
     justify-content: space-between;
-    height: 65%;
+    height: 94%;
     margin: 0;
     padding: 15px;
   }
@@ -426,7 +426,7 @@ h1 {
     .trilhas-list,
     .featurings-list {
       margin: -10vh;
-      width: 68%
+      width: 95%
 
     }
 
@@ -459,7 +459,7 @@ h1 {
   }
 
   .release-name, .trilha-name, .featuring-name {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .artist-name {
