@@ -426,7 +426,7 @@ h1 {
     .trilhas-list,
     .featurings-list {
       margin: -10vh;
-      width: 75%
+      width: 68%
 
     }
 
@@ -460,6 +460,10 @@ h1 {
 
   .release-name, .trilha-name, .featuring-name {
     font-size: 18px;
+  }
+
+  .artist-name {
+    font-size: 12px;
   }
 
   .label-info, .trilha-info, .credit-info {
