@@ -263,7 +263,7 @@ h1 {
 
 .release-box div {
   width: 50%;
-  margin: auto;
+  margin: 10vh auto;
 }
 
 .release-box ol {
@@ -484,6 +484,7 @@ h1 {
 
   .release-box div {
     width: 100%;
+    margin: 0;
   }
 
 
@@ -511,6 +512,10 @@ h1 {
 
 .release-info h3 {
   font-size: 28px;
+}
+
+.embed {
+  padding-top: 1px;
 }
 
 
