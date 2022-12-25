@@ -358,7 +358,7 @@ h1 {
   border: none;
 }
 
-  li hover {
+  li:hover {
     transform: skew(0deg, 0deg);
   }
 
@@ -426,6 +426,7 @@ h1 {
     .trilhas-list,
     .featurings-list {
       margin: -10vh;
+      width: 75%
 
     }
 
@@ -458,7 +459,7 @@ h1 {
   }
 
   .release-name, .trilha-name, .featuring-name {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .label-info, .trilha-info, .credit-info {
