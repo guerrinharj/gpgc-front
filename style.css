@@ -28,16 +28,17 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 1px;
+  width: 26px;
 }
 
 body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 2px 0 2px rgba(0, 0, 0, 0.3);
+  border: dashed 1px white;
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: black;
-  outline: 0.2px solid white;
+  outline: 1px solid white;
 }
 
 li {
@@ -352,6 +353,10 @@ h1 {
 
 
 @media (max-width: 600px) {
+
+  body::-webkit-scrollbar-track {
+  border: none;
+}
 
   li hover {
     transform: skew(0deg, 0deg);
