@@ -367,14 +367,14 @@ h1 {
     display: block;
       position: fixed;
       left: -10px;
-      border: dotted 1px white;
+      border-right: dotted 1px white;
   }
 
   .mobile-header ul {
     display: flex;
     writing-mode: vertical-lr;
     justify-content: space-between;
-    height: 94%;
+    height: 91%;
     margin: 0;
     padding: 15px;
   }
