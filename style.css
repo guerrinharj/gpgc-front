@@ -210,11 +210,6 @@ h1 {
 }
 
 
-.trilhas-list a:hover .trilha-name,
-.featurings-list a:hover .featuring-name {
-  text-align: left;
-}
-
 .trilhas-list a:hover .artist-name,
 .featurings-list a:hover .artist-name {
   display: none;
@@ -384,14 +379,11 @@ h1 {
     border: none;
   }
 
-  li:hover {
-    transform: skew(0deg, 0deg);
-  }
-
   .mobile-header {
     display: block;
     position: fixed;
     left: -10px;
+    height: 100vh;
     border-right: dotted 1px white;
   }
 
@@ -446,7 +438,9 @@ h1 {
     text-align: center;
   }
 
-  .releases, .trilhas, .featurings {
+  .releases,
+  .trilhas,
+  .featurings {
     justify-content: flex-end;
     width: 73vw
   }
@@ -468,9 +462,7 @@ h1 {
 
   .releases-list li,
   .trilhas-list li,
-  .featurings-list li {
-
-  }
+  .featurings-list li {}
 
   .trilhas-list a:hover .trilha-info,
   .featurings-list a:hover .credit-info {
@@ -553,14 +545,18 @@ h1 {
     text-align: right;
   }
 
-.trilhas-list a:hover .artist-name,
-.featurings-list a:hover .artist-name {
-  display: block;
-}
+  .trilhas-list a:hover .artist-name,
+  .featurings-list a:hover .artist-name {
+    display: block;
+  }
 
   .trilhas-list a:hover .trilha-info {
     text-align: right;
     font-size: 10px;
+  }
+
+  .featuring-list a:hover .featuring-name {
+    pointer-events: none;
   }
 
   .release-geral {
