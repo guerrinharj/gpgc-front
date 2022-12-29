@@ -391,7 +391,7 @@ h1 {
     display: flex;
     writing-mode: vertical-lr;
     justify-content: space-between;
-    height: 91%;
+    height: 85vh;
     margin: 0;
     padding: 15px;
   }
@@ -449,6 +449,7 @@ h1 {
   .trilhas-list,
   .featurings-list {
     margin: -10vh;
+    padding: 14px 0;
     width: 50%
   }
 
