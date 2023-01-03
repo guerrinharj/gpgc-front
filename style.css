@@ -91,7 +91,7 @@ li {
   font-style: italic;
   display: flex;
   justify-content: space-between;
-  font-size: 40px;
+  font-size: 50px;
   width: 80%;
   margin: 7px auto;
 }
@@ -374,7 +374,7 @@ h1 {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
   body::-webkit-scrollbar-track {
     border: none;
