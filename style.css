@@ -589,5 +589,9 @@ h1 {
     padding-top: 1px;
   }
 
+  .index p {
+    font-size: 12px;
+  }
+
 
 }
