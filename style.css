@@ -71,8 +71,9 @@ li {
 .logo h1 {
   animation: MoveDown 1000s infinite linear;
   writing-mode: vertical-lr;
-  font-size: 40px;
+  font-size: 50px;
   white-space: nowrap;
+  font-weight: 100;
 }
 
 .header {
@@ -118,7 +119,7 @@ h1 {
   width: 50%;
   height: 100%;
   z-index: 1;
-  opacity: 10%;
+  opacity: 3%;
   background-image: url("background.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -136,7 +137,7 @@ h1 {
 .trilhas-list,
 .featurings-list {
   z-index: 2;
-  width: 50%;
+  width: 81%;
   margin: 10vh auto;
 }
 
@@ -255,19 +256,18 @@ h1 {
 }
 
 .release-info h2 {
-  font-size: 42px;
-  text-transform: uppercase;
+  font-size: 35px;
+  text-transform: capitalize;
   font-style: italic;
   margin: 0
 }
 
 .release-info h3 {
   font-size: 35px;
-  opacity: 77%;
-  text-transform: uppercase;
+  opacity: 47%;
+  text-transform: capitalize;
   font-style: italic;
   margin: 0;
-  transform: skew(-10deg);
 }
 
 .release-box {
@@ -508,7 +508,8 @@ h1 {
   }
 
   .artist-name {
-    font-size: 12px;
+    font-size: 13px;
+    opacity: 47%
   }
 
   .label-info,
