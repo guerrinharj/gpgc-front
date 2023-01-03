@@ -354,7 +354,11 @@ h1 {
   animation: MoveLeft 900s infinite linear
 }
 
-
+.index {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
 
 
 
@@ -576,7 +580,8 @@ h1 {
     font-size: 24px;
   }
 
-  .release-info p, .release-info ol li  {
+  .release-info p,
+  .release-info ol li {
     font-size: 12px;
   }
 
