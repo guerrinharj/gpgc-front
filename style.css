@@ -79,6 +79,10 @@ li {
   background-color: black;
   border-bottom: dashed 1px white;
   width: 100vw;
+  height: 8vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .menu {
@@ -87,14 +91,11 @@ li {
   font-style: italic;
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 40px;
   width: 80%;
-  margin: 10px auto;
+  margin: 7px auto;
 }
 
-.menu li {
-  transform: skewX(-10deg);
-}
 
 a {
   color: white;
@@ -136,7 +137,7 @@ h1 {
 .featurings-list {
   z-index: 2;
   width: 50%;
-  margin: 8vh auto 10vh;
+  margin: 10vh auto;
 }
 
 
@@ -337,7 +338,7 @@ h1 {
   background-color: black;
   width: 100vw;
   overflow: hidden;
-  height: 5vh;
+  height: 7vh;
   display: flex;
   align-items: center;
 }
@@ -347,7 +348,7 @@ h1 {
   text-transform: uppercase;
   margin: 10px 0;
   font-style: italic;
-  font-size: 20px;
+  font-size: 50px;
   white-space: nowrap;
   margin: 20px 0;
   animation: MoveLeft 900s infinite linear
