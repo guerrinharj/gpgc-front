@@ -205,7 +205,6 @@ h1 {
   text-transform: capitalize;
   justify-content: space-between;
   align-items: center;
-  border-bottom: dashed 1px white;
 }
 
 .releases-list li:hover a, .trilhas-list li:hover a, .featurings-list li:hover a {
