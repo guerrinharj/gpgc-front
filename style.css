@@ -390,7 +390,6 @@ h1 {
     position: fixed;
     height: 100vh;
     width: 10vw;
-    border-right: dotted 1px white;
   }
 
   .mobile-header ul {
@@ -405,6 +404,7 @@ h1 {
     text-transform: uppercase;
     font-weight: 400;
     font-style: italic;
+    border-left: dotted 1px #fff;
   }
 
   .logo {
