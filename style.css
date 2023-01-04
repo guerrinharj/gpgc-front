@@ -74,11 +74,7 @@ li {
   font-size: 50px;
   white-space: nowrap;
   font-weight: 100;
-}
-
-.logo h1:hover {
-  color: #d15256;
-  transition: 0.7s ease;
+  color: white;
 }
 
 .header {
@@ -102,9 +98,13 @@ li {
   margin: 7px auto;
 }
 
+.menu li a {
+    color: white;
+}
+
 .menu li:hover a {
   transition: 0.2s ease;
-  color: #d15256
+  color: #f7cdce;
 }
 
 
@@ -205,10 +205,11 @@ h1 {
   text-transform: capitalize;
   justify-content: space-between;
   align-items: center;
+  border-bottom: dashed 1px white;
 }
 
 .releases-list li:hover a, .trilhas-list li:hover a, .featurings-list li:hover a {
-  color: #d15256;
+  color: #f7cdce;
   transition: 0.2s ease;
 }
 
@@ -245,9 +246,9 @@ h1 {
 .year h3 {
   font-weight: 100;
   font-size: 22px;
-  transform: skewX(-46deg);
-  color: #d15256;
-  opacity: 97%;
+  transform: scale(1.3);
+  color: #f7cdce;
+  opacity: 13%;
 }
 
 
@@ -277,22 +278,15 @@ h1 {
   font-size: 35px;
   text-transform: capitalize;
   font-style: italic;
-  margin: 0
+  margin: 0;
 }
 
 .release-info h3 {
   font-size: 35px;
-  opacity: 47%;
+  opacity: 82%;
   text-transform: capitalize;
   font-style: italic;
   margin: 0;
-  color: #fff;
-}
-
-.release-info h3:hover {
-  color: #d15256;
-  opacity: 100;
-  transition: 0.2s ease;
 }
 
 .release-box {
@@ -326,11 +320,6 @@ h1 {
 
 .release-info b {
   font-style: italic;
-}
-
-.release-info b:hover {
-  color: #d15256;
-  transition: 0.4s ease;
 }
 
 .release-info p,
@@ -382,12 +371,9 @@ h1 {
   white-space: nowrap;
   margin: 20px 0;
   animation: MoveLeft 1200s infinite linear;
+  color: white;
 }
 
-.footer span:hover {
-  color: #d15256;
-  transition: 0.7s ease;
-}
 
 .index {
   font-size: 13px;
@@ -399,14 +385,9 @@ h1 {
 }
 
 .index:hover {
-  color: #d15256;
+  color: #f7cdce;
   transition: 5s ease;
 }
-
-  .index span:hover, .sobre span:hover {
-    color: #d15256;
-    transition: 0.2s ease;
-  }
 
 
 
@@ -513,9 +494,6 @@ h1 {
     padding: 0
   }
 
-  .releases-list li,
-  .trilhas-list li,
-  .featurings-list li {}
 
   .trilhas-list a:hover .trilha-info,
   .featurings-list a:hover .credit-info {
@@ -574,7 +552,7 @@ h1 {
   }
 
   .sobre b:hover a {
-    color: #d15256;
+    color: #f7cdce;
     transition: 0.2s ease;
   }
 
