@@ -627,6 +627,12 @@ h1 {
 
   .release-info h3 {
     font-size: 24px;
+    opacity: 100;
+    color: #d15256
+  }
+
+  .release-info b {
+    color: #d15256;
   }
 
   .release-info p,
