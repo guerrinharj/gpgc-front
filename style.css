@@ -74,6 +74,12 @@ li {
   font-size: 50px;
   white-space: nowrap;
   font-weight: 100;
+  transition: 0.7s ease;
+}
+
+.logo h1:hover {
+  color: #d15256;
+  transition: 0.7s ease;
 }
 
 .header {
@@ -95,6 +101,12 @@ li {
   font-size: 50px;
   width: 80%;
   margin: 7px auto;
+  transition: 0.2s ease;
+}
+
+.menu li:hover a {
+  transition: 0.2s ease;
+  color: #d15256
 }
 
 
@@ -138,7 +150,7 @@ h1 {
 .trilhas-list,
 .featurings-list {
   z-index: 2;
-  width: 81%;
+  width: 68%;
   margin: 10vh auto;
 }
 
@@ -195,7 +207,12 @@ h1 {
   text-transform: capitalize;
   justify-content: space-between;
   align-items: center;
-  border-bottom: solid 1px white;
+  transition: 0.2s ease;
+}
+
+.releases-list li:hover a, .trilhas-list li:hover a, .featurings-list li:hover a {
+  color: #d15256;
+  transition: 0.2s ease;
 }
 
 .trilhas-list a,
@@ -231,8 +248,11 @@ h1 {
 .year h3 {
   font-weight: 100;
   font-size: 22px;
-  transform: skewX(-36deg)
+  transform: skewX(-46deg);
+  color: #d15256;
+  opacity: 97%;
 }
+
 
 
 .trilha-info,
@@ -269,6 +289,14 @@ h1 {
   text-transform: capitalize;
   font-style: italic;
   margin: 0;
+  transition: 0.2s ease;
+  color: #fff;
+}
+
+.release-info h3:hover {
+  color: #d15256;
+  opacity: 100;
+  transition: 0.2s ease;
 }
 
 .release-box {
@@ -302,6 +330,11 @@ h1 {
 
 .release-info b {
   font-style: italic;
+}
+
+.release-info b:hover {
+  color: #d15256;
+  transition: 0.4s ease;
 }
 
 .release-info p,
@@ -352,15 +385,27 @@ h1 {
   font-size: 50px;
   white-space: nowrap;
   margin: 20px 0;
-  animation: MoveLeft 1200s infinite linear
+  animation: MoveLeft 1200s infinite linear;
+  transition: 0.7s ease;
+}
+
+.footer span:hover {
+  color: #d15256;
+  transition: 0.7s ease;
 }
 
 .index {
-  font-size: 12px;
+  font-size: 13px;
   height: 100vh;
   display: flex;
   align-items: center;
   text-align: center;
+  transition: 0.5s ease;
+}
+
+.index:hover {
+  color: #d15256;
+  transition: 5s ease;
 }
 
 
@@ -526,6 +571,11 @@ h1 {
     font-size: 11px!important;
     text-align: right;
     transform: translateX(25px)
+  }
+
+  .sobre b:hover a {
+    color: #d15256;
+    transition: 0.2s ease;
   }
 
   .release {
