@@ -389,6 +389,7 @@ h1 {
     display: block;
     position: fixed;
     height: 100vh;
+    width: 10vw;
     border-right: dotted 1px white;
   }
 
@@ -591,6 +592,10 @@ h1 {
 
   .index p {
     font-size: 10px;
+  }
+
+  .sobre div {
+    transform: translatex(25px);
   }
 
 
