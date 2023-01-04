@@ -396,7 +396,7 @@ h1 {
     display: flex;
     writing-mode: vertical-lr;
     justify-content: space-between;
-    height: 65vh;
+    height: 75vh;
   }
 
   .mobile-header li {
