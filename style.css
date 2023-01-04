@@ -74,7 +74,6 @@ li {
   font-size: 50px;
   white-space: nowrap;
   font-weight: 100;
-  transition: 0.7s ease;
 }
 
 .logo h1:hover {
@@ -101,7 +100,6 @@ li {
   font-size: 50px;
   width: 80%;
   margin: 7px auto;
-  transition: 0.2s ease;
 }
 
 .menu li:hover a {
@@ -207,7 +205,6 @@ h1 {
   text-transform: capitalize;
   justify-content: space-between;
   align-items: center;
-  transition: 0.2s ease;
 }
 
 .releases-list li:hover a, .trilhas-list li:hover a, .featurings-list li:hover a {
@@ -289,7 +286,6 @@ h1 {
   text-transform: capitalize;
   font-style: italic;
   margin: 0;
-  transition: 0.2s ease;
   color: #fff;
 }
 
@@ -386,7 +382,6 @@ h1 {
   white-space: nowrap;
   margin: 20px 0;
   animation: MoveLeft 1200s infinite linear;
-  transition: 0.7s ease;
 }
 
 .footer span:hover {
