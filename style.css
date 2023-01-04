@@ -396,8 +396,7 @@ h1 {
     writing-mode: vertical-lr;
     justify-content: space-between;
     height: 85vh;
-    margin: 0;
-    padding: 15px;
+    margin: -15px 10px;
   }
 
   .mobile-header li {
