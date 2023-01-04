@@ -69,7 +69,7 @@ li {
 
 
 .logo h1 {
-  animation: MoveDown 1000s infinite linear;
+  animation: MoveDown 2500s infinite linear;
   writing-mode: vertical-lr;
   font-size: 50px;
   white-space: nowrap;
@@ -352,7 +352,7 @@ h1 {
   font-size: 50px;
   white-space: nowrap;
   margin: 20px 0;
-  animation: MoveLeft 900s infinite linear
+  animation: MoveLeft 1200s infinite linear
 }
 
 .index {
