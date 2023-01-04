@@ -119,8 +119,9 @@ h1 {
   width: 50%;
   height: 100%;
   z-index: 1;
-  opacity: 3%;
-  background-image: url("background.png");
+  opacity: 7%;
+  filter: grayscale(10%);
+  background-image: url("background_g.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
