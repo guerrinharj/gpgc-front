@@ -355,6 +355,7 @@ h1 {
 }
 
 .index {
+  font-size: 12px;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -589,7 +590,7 @@ h1 {
   }
 
   .index p {
-    font-size: 12px;
+    font-size: 10px;
   }
 
 
