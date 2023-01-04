@@ -250,7 +250,6 @@ h1 {
 .sobre div {
   width: 30%;
   margin: 20vh auto;
-  text-align: center;
 }
 
 .release-geral {
@@ -361,6 +360,7 @@ h1 {
   height: 100vh;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 
