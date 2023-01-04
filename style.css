@@ -386,6 +386,7 @@ h1 {
 
   .mobile-header {
     display: block;
+    padding: 20px;
     position: fixed;
     height: 100vh;
     border-right: dotted 1px white;
