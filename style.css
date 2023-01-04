@@ -521,7 +521,7 @@ h1 {
   .sobre div {
     margin: 16vh auto;
     width: 70%;
-    font-size: 12p0x;
+    font-size: 11px!important;
     text-align: right;
     transform: translateX(25px)
   }
