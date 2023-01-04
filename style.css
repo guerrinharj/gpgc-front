@@ -386,7 +386,7 @@ h1 {
 
   .mobile-header {
     display: block;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     height: 100vh;
     border-right: dotted 1px white;
@@ -397,6 +397,7 @@ h1 {
     writing-mode: vertical-lr;
     justify-content: space-between;
     height: 75vh;
+
   }
 
   .mobile-header li {
