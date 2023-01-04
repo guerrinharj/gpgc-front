@@ -521,8 +521,9 @@ h1 {
   .sobre div {
     margin: 16vh auto;
     width: 70%;
-    font-size: 15px;
+    font-size: 12p0x;
     text-align: right;
+    transform: translateX(25px)
   }
 
   .release {
@@ -593,10 +594,5 @@ h1 {
   .index p {
     font-size: 10px;
   }
-
-  .sobre div {
-    transform: translatex(25px);
-  }
-
 
 }
