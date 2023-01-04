@@ -195,7 +195,7 @@ h1 {
   text-transform: capitalize;
   justify-content: space-between;
   align-items: center;
-  border-bottom: dashed 1px white;
+  border-bottom: solid 1px white;
 }
 
 .trilhas-list a,
