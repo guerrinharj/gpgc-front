@@ -102,9 +102,9 @@ li {
     color: white;
 }
 
-.menu li:hover a {
+.menu li:hover {
   transition: 0.2s ease;
-  color: #f7cdce;
+  transform: translate(1px, 1px);
 }
 
 
@@ -208,8 +208,8 @@ h1 {
 }
 
 .releases-list li:hover a, .trilhas-list li:hover a, .featurings-list li:hover a {
-  color: #f7cdce;
   transition: 0.2s ease;
+  transform: translate(-1px, 1px);
 }
 
 .trilhas-list a,
@@ -282,7 +282,7 @@ h1 {
 
 .release-info h3 {
   font-size: 35px;
-  opacity: 82%;
+  opacity: 68%;
   text-transform: capitalize;
   font-style: italic;
   margin: 0;
@@ -375,7 +375,8 @@ h1 {
 
 
 .index {
-  font-size: 13px;
+  font-size: 53px;
+  font-style: italic;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -533,7 +534,6 @@ h1 {
 
   .artist-name {
     font-size: 13px;
-    color: #f7cdce;
   }
 
   .label-info,
@@ -548,11 +548,6 @@ h1 {
     font-size: 11px!important;
     text-align: right;
     transform: translateX(25px)
-  }
-
-  .sobre b:hover a {
-    color: #f7cdce;
-    transition: 0.2s ease;
   }
 
   .release {
@@ -605,7 +600,7 @@ h1 {
 
   .release-info h2 {
     font-size: 24px;
-    color: #f7cdce;
+    opacity: 82%;
   }
 
   .release-info h3 {
@@ -628,10 +623,6 @@ h1 {
 
   .index p {
     font-size: 10px;
-  }
-
-  .index span, .sobre span {
-    color: #f7cdce;
   }
 
 }
