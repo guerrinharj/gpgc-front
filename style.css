@@ -349,12 +349,14 @@ h1 {
 }
 
 .release {
-  width: 900px;
+  width: 1000px;
+  transform: translateX(100px);
+  position: relative;
+  z-index: 100;
 }
-
 .release-box div {
   width: 100%;
-  margin: 12vh auto;
+  margin: 8vh auto;
 
 }
 
@@ -372,8 +374,8 @@ h1 {
 
 
 .release-image img {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   margin: auto;
   opacity: 100;
 }
@@ -614,6 +616,7 @@ h1 {
     font-size: 14px;
     text-align: center;
     width: 100vw;
+    transform: translateX(0);
   }
 
   .release-image img {
