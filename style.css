@@ -33,9 +33,12 @@ body {
   background-color: black;
   font-family: 'Times', Times, serif;
   color: white;
-  margin: 0 !important;
+  margin: 0 auto !important;
   overflow-x: hidden;
-  -webkit-font-smoothing: antialiased
+  -webkit-font-smoothing: antialiased;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
 }
 
 body::-webkit-scrollbar {
@@ -56,17 +59,44 @@ li {
   list-style-type: none;
 }
 
+.logo,
+.rightlogo {
+  display: none !important
+}
+
 .mobile-header {
-  display: none;
+  display: block;
+  position: fixed;
+  height: 100vh;
+  width: 10vw;
+  left: 0;
+  z-index: 999
+}
+
+.mobile-header ul {
+  display: flex;
+  writing-mode: vertical-lr;
+  justify-content: space-between;
+  height: 85vh;
+
+}
+
+.mobile-header li {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: italic;
+  border-left: dotted 1px #fff;
 }
 
 .header {
+  display: none!important;
   position: fixed;
   width: auto;
   z-index: 99
 }
 
-.logo, .rightlogo {
+.logo,
+.rightlogo {
   position: fixed;
   height: 100vh;
   width: 4vw;
@@ -83,7 +113,8 @@ li {
 }
 
 
-.logo h1, .rightlogo h1 {
+.logo h1,
+.rightlogo h1 {
   animation: MoveDown 2500s infinite linear;
   writing-mode: vertical-lr;
   font-size: 50px;
@@ -98,8 +129,8 @@ li {
 
 .header {
   background-color: black;
-  border-bottom: dashed 1px white;
-  width: 100vw;
+  border-bottom: solid 1px #ccc;
+  width: 900px;
   height: 8vh;
   overflow: hidden;
   display: flex;
@@ -112,13 +143,13 @@ li {
   font-style: italic;
   display: flex;
   justify-content: space-between;
-  font-size: 50px;
-  width: 80%;
+  font-size: 30px;
+  width: 100%;
   margin: 7px auto;
 }
 
 .menu li a {
-    color: white;
+  color: white;
 }
 
 .menu li:hover {
@@ -167,8 +198,8 @@ h1 {
 .trilhas-list,
 .featurings-list {
   z-index: 2;
-  width: 82%;
-  margin: 10vh auto;
+  width: 92%;
+  margin: 2vh auto;
 }
 
 
@@ -194,7 +225,7 @@ h1 {
 .releases-list div,
 .trilhas-list div,
 .featurings-list div {
-  padding: 0 15px 0;
+  padding: 0;
 }
 
 .releases-list h3,
@@ -216,7 +247,7 @@ h1 {
 .releases-list li a,
 .trilhas-list li a,
 .featurings-list a {
-  display: flex;
+  display: block;
   color: white;
   font-family: 'Palatino';
   font-style: italic;
@@ -226,7 +257,9 @@ h1 {
   align-items: center;
 }
 
-.releases-list li:hover a, .trilhas-list li:hover a, .featurings-list li:hover a {
+.releases-list li:hover a,
+.trilhas-list li:hover a,
+.featurings-list li:hover a {
   transition: 0.2s ease;
   transform: translate(-1px, 1px);
 }
@@ -285,7 +318,7 @@ h1 {
 }
 
 .sobre div {
-  width: 30%;
+  width: 50%;
   margin: 20vh auto;
 }
 
@@ -312,11 +345,17 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
+}
+
+.release {
+  width: 900px;
 }
 
 .release-box div {
-  width: 50%;
+  width: 100%;
   margin: 12vh auto;
+
 }
 
 .release-box ol {
@@ -326,6 +365,8 @@ h1 {
 
 .release-image {
   display: block;
+  position: relative;
+  z-index: 9;
 }
 
 
@@ -344,6 +385,10 @@ h1 {
 .release-info p,
 .release-info li {
   font-family: 'Palatino'
+}
+
+.release-info {
+  text-align: right;
 }
 
 .alternative-cover {
@@ -372,9 +417,11 @@ h1 {
   position: fixed;
   bottom: 0;
   z-index: 10;
-  border-top: dashed 1px white;
+  border-top: solid 1px #ccc;
+  border-left: solid 1px grey;
+  border-right: solid 1px grey;
   background-color: black;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   height: 7vh;
   display: flex;
@@ -429,33 +476,25 @@ h1 {
 
 @media (max-width: 800px) {
 
+  body {
+    width: 100vw;
+    display: block;
+  }
+
   body::-webkit-scrollbar-track {
     border: none;
   }
 
   .mobile-header {
     display: block;
-    position: fixed;
-    height: 100vh;
-    width: 10vw;
   }
 
   .mobile-header ul {
-    display: flex;
-    writing-mode: vertical-lr;
-    justify-content: space-between;
     height: 75vh;
-
   }
 
-  .mobile-header li {
-    text-transform: uppercase;
-    font-weight: 400;
-    font-style: italic;
-    border-left: dotted 1px #fff;
-  }
-
-  .logo, .rightlogo {
+  .logo,
+  .rightlogo {
     display: none;
   }
 
@@ -481,7 +520,6 @@ h1 {
   .trilhas-list h2,
   .featurings-list h2 {
     font-size: 42px;
-    border-bottom: solid 1px white;
     margin: 0;
     transform: translate(0);
     background-color: black;
@@ -567,7 +605,7 @@ h1 {
   .sobre div {
     margin: 16vh auto;
     width: 70%;
-    font-size: 11px!important;
+    font-size: 11px !important;
     text-align: right;
     transform: translateX(25px)
   }
@@ -575,6 +613,7 @@ h1 {
   .release {
     font-size: 14px;
     text-align: center;
+    width: 100vw;
   }
 
   .release-image img {
