@@ -194,7 +194,7 @@ h1 {
 .releases-list div,
 .trilhas-list div,
 .featurings-list div {
-  padding: 0 15px 20px;
+  padding: 0 15px 0;
 }
 
 .releases-list h3,
