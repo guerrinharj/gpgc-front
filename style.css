@@ -386,7 +386,7 @@ h1 {
 
 .release-info p,
 .release-info li {
-  font-family: 'Palatino'
+  font-style: italic;
 }
 
 .release-info {
