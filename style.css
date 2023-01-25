@@ -382,6 +382,7 @@ h1 {
 
 .release-info b {
   font-style: italic;
+  opacity: 60%;
 }
 
 .release-info p,
