@@ -482,6 +482,7 @@ h1 {
   body {
     width: 100vw;
     display: block;
+    letter-spacing: 0px;
   }
 
   body::-webkit-scrollbar-track {
