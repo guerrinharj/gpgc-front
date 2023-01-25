@@ -257,6 +257,11 @@ h1 {
   align-items: center;
 }
 
+  .artist-name {
+    font-size: 15px;
+    opacity: 70%;
+  }
+
 .releases-list li:hover a,
 .trilhas-list li:hover a,
 .featurings-list li:hover a {
@@ -589,17 +594,6 @@ h1 {
   .featurings-list a {
     text-align: center;
     border-bottom: none;
-  }
-
-  p.release-name,
-  p.trilha-name,
-  p.featuring-name {
-    font-size: 18px!important;
-  }
-
-  .artist-name {
-    font-size: 13px;
-    opacity: 40%;
   }
 
   .label-info,
