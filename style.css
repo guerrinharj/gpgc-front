@@ -32,6 +32,7 @@
 body {
   background-color: black;
   font-family: 'Times', Times, serif;
+  letter-spacing: -1px;
   color: white;
   margin: 0 auto !important;
   overflow-x: hidden;
@@ -249,7 +250,6 @@ h1 {
 .featurings-list a {
   display: block;
   color: white;
-  font-family: 'Palatino';
   font-style: italic;
   text-align: center;
   text-transform: capitalize;
