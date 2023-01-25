@@ -591,15 +591,15 @@ h1 {
     border-bottom: none;
   }
 
-  .release-name,
-  .trilha-name,
-  .featuring-name {
-    font-size: 20px;
+  p.release-name,
+  p.trilha-name,
+  p.featuring-name {
+    font-size: 18px!important;
   }
 
   .artist-name {
     font-size: 13px;
-    opacity: 85%;
+    opacity: 40%;
   }
 
   .label-info,
