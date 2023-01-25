@@ -594,11 +594,12 @@ h1 {
   .release-name,
   .trilha-name,
   .featuring-name {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .artist-name {
     font-size: 13px;
+    opacity: 85%;
   }
 
   .label-info,
