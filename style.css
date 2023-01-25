@@ -582,10 +582,12 @@ h1 {
 
   .releases-list li a,
   .trilhas-list li a,
-  .featurings-list a {
+  .featurings-list a,
+  .artist-name {
     display: block;
     border-bottom: none;
-    font-family: 'Palatino'
+    font-family: 'Palatino';
+    font-size: 13px;
   }
 
 
