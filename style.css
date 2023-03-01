@@ -354,7 +354,7 @@ h1 {
 }
 
 .release {
-  width: 1000px;
+  width: 75vw;
   transform: translateX(100px);
   position: relative;
   z-index: 100;
