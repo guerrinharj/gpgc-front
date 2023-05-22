@@ -432,7 +432,7 @@ h1 {
   width: 100%;
   overflow: hidden;
   height: 7vh;
-  display: flex;
+  display: none;
   align-items: center;
 }
 
