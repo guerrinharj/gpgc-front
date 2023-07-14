@@ -558,7 +558,7 @@ letter-spacing: -2px;
   .releases,
   .trilhas,
   .featurings {
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   .releases-list,
