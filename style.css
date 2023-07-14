@@ -30,16 +30,18 @@
 
 
 body {
-  background-color: black;
-  font-family: 'Times', Times, serif;
-  letter-spacing: -1px;
-  color: white;
-  margin: 0 auto !important;
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  width: 95vw;
-  display: flex;
-  justify-content: center;
+    background-color: black;
+    font-family: 'Helvetica', Times, serif;
+    letter-spacing: -1px;
+    color: white;
+    margin: 0 auto !important;
+    overflow-x: hidden;
+    letter-spacing: -5px;
+    font-weight: 50;
+    -webkit-font-smoothing: antialiased;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
 }
 
 body::-webkit-scrollbar {
@@ -83,10 +85,12 @@ li {
 }
 
 .mobile-header li {
-  text-transform: uppercase;
-  font-weight: 400;
-  font-style: italic;
-  border-left: dotted 1px #fff;
+text-transform: uppercase;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: -3px;
+
+    border-left: solid 1px #fff;
 }
 
 .header {
@@ -252,12 +256,16 @@ h1 {
   color: white;
   font-style: italic;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
   justify-content: space-between;
   align-items: center;
 }
 
   .artist-name {
+    opacity: 40%;
+  }
+
+    .artist-name:hover {
     font-size: 15px;
     opacity: 70%;
   }
