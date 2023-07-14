@@ -641,7 +641,7 @@ letter-spacing: -2px;
     display: block;
     padding: 50px 20px;
     text-align: right;
-    width: 70%;
+    width: auto;
     margin-left: 70px;
   }
 
