@@ -87,9 +87,9 @@ li {
 .mobile-header li {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 28px;
-  letter-spacing: -3px;
   font-size: 26px;
+  letter-spacing: -3px;
+  border-left: solid 1px;
 }
 
 .header {
