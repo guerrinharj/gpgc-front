@@ -355,6 +355,8 @@ h1 {
     font-size: 33px;
     letter-spacing: -2px;
     opacity: 100;
+    font-weight: 500;
+    margin: 0!important;
 }
 
 .release-box {
@@ -689,8 +691,6 @@ letter-spacing: -2px;
     font-size: 44px;
     opacity: 100;
     letter-spacing: -5px;
-    font-weight: 500;
-    margin: 0!important;
   }
 
   .release-info p,
