@@ -352,9 +352,9 @@ h1 {
 }
 
 .release-info h3 {
-  font-size: 35px;
-  margin: 0;
-  font-weight: 500!important;
+    font-size: 33px;
+    letter-spacing: -2px;
+    opacity: 100;
 }
 
 .release-box {
@@ -676,18 +676,18 @@ letter-spacing: -2px;
   }
 
   .release-info h2 {
-    font-size: 24px;
-    opacity: 82%;
+    font-size: 42px;
+    letter-spacing: -4px;
   }
 
   .release-info h3 {
-    font-size: 24px;
+    font-size: 44px;
     opacity: 100;
   }
 
   .release-info p,
   .release-info ol li {
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .embed {
