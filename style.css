@@ -87,7 +87,7 @@ li {
 .mobile-header li {
 text-transform: uppercase;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
     letter-spacing: -3px;
 
     border-left: solid 1px #fff;
@@ -254,7 +254,7 @@ h1 {
 .featurings-list a {
   display: block;
   color: white;
-  font-style: italic;
+  font-size: 40px;
   text-align: center;
   text-transform: uppercase;
   justify-content: space-between;
@@ -266,7 +266,6 @@ h1 {
   }
 
     .artist-name:hover {
-    font-size: 15px;
     opacity: 70%;
   }
 
