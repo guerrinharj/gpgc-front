@@ -616,11 +616,9 @@ letter-spacing: -2px;
   }
 
   .sobre div {
-    margin: 16vh auto;
-    width: 70%;
-    font-size: 11px !important;
+    width: 80%;
     text-align: right;
-    transform: translateX(25px)
+
   }
 
   .release {
