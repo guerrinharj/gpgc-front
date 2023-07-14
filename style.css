@@ -336,20 +336,17 @@ h1 {
 
 .release-geral {
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .release-info h2 {
   font-size: 35px;
-  text-transform: capitalize;
-  font-style: italic;
   margin: 0;
 }
 
 .release-info h3 {
   font-size: 35px;
   opacity: 68%;
-  text-transform: capitalize;
-  font-style: italic;
   margin: 0;
 }
 
@@ -393,13 +390,11 @@ h1 {
 }
 
 .release-info b {
-  font-style: italic;
   opacity: 60%;
 }
 
 .release-info p,
 .release-info li {
-  font-style: italic;
 }
 
 .release-info {
