@@ -498,6 +498,10 @@ letter-spacing: -2px;
 
 @media (max-width: 800px) {
 
+  body {
+    font-family:Arial, Helvetica, sans-serif
+  }
+
   body::-webkit-scrollbar-track {
     border: none;
   }
