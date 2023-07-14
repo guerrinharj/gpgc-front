@@ -400,6 +400,8 @@ h1 {
 
 .release-info p,
 .release-info li {
+  letter-spacing: 1px;
+  font-size: 19px;
 }
 
 .release-info {
