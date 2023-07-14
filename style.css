@@ -339,9 +339,10 @@ h1 {
 }
 
 .release-info h2 {
-  font-size: 35px;
-  margin: 0;
-  font-weight: 500!important;
+    font-size: 35px;
+    margin: 0;
+    font-weight: 500!important;
+    text-decoration: underline;
 }
 
 .release-info {
@@ -350,7 +351,6 @@ h1 {
 
 .release-info h3 {
   font-size: 35px;
-  opacity: 68%;
   margin: 0;
   font-weight: 500!important;
 }
@@ -395,8 +395,10 @@ h1 {
 }
 
 .release-info b {
-  opacity: 60%;
+border-bottom: solid 1px;
+    letter-spacing: -1px;
 }
+
 
 .release-info p,
 .release-info li {
