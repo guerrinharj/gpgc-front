@@ -261,11 +261,12 @@ h1 {
   align-items: center;
 }
 
-  .artist-name {
-    opacity: 40%;
-  }
+.release-name {
+  text-decoration: underline
+}
 
-    .artist-name:hover {
+
+  .release-name:hover {
     opacity: 70%;
   }
 
