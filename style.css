@@ -618,7 +618,7 @@ letter-spacing: -2px;
   .sobre div {
     width: 80%;
     text-align: right;
-
+    transform: translateX(30px);
   }
 
   .release {
