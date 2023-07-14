@@ -325,14 +325,16 @@ h1 {
 }
 
 .sobre {
-  font-style: italic;
-  display: flex;
-  justify-content: center;
+    display: flex;
+    letter-spacing: -2px;
+    font-size: 44px;
+    text-transform: lowercase;
+    justify-content: center;
 }
 
 .sobre div {
   width: 50%;
-  margin: 20vh auto;
+  margin: auto;
 }
 
 .release-geral {
