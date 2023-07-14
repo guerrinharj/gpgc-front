@@ -341,6 +341,7 @@ h1 {
 .release-info h2 {
   font-size: 35px;
   margin: 0;
+  font-weight: 500!important;
 }
 
 .release-info {
@@ -351,6 +352,7 @@ h1 {
   font-size: 35px;
   opacity: 68%;
   margin: 0;
+  font-weight: 500!important;
 }
 
 .release-box {
