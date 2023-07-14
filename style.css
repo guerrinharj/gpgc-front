@@ -50,7 +50,7 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
   box-shadow: inset 2px 0 2px rgba(0, 0, 0, 0.3);
-  border: dashed 1px white;
+  border: solid 1px white;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -567,7 +567,7 @@ letter-spacing: -2px;
   .featurings-list {
     margin: -10vh;
     padding: 0 0 60px;
-    width: 50%
+    width: 100%
   }
 
 
@@ -601,7 +601,7 @@ letter-spacing: -2px;
   .artist-name {
     display: block;
     border-bottom: none;
-    font-family: 'Palatino';
+    letter-spacing: 4px;
     font-size: 13px;
   }
 
