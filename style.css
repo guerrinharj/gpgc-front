@@ -690,7 +690,7 @@ letter-spacing: -2px;
     opacity: 100;
     letter-spacing: -5px;
     font-weight: 500;
-    margin: 0;
+    margin: 0!important;
   }
 
   .release-info p,
