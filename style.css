@@ -615,10 +615,19 @@ letter-spacing: -2px;
     display: none;
   }
 
+ .sobre {
+    display: flex;
+    letter-spacing: -2px;
+    font-size: 25px;
+    text-transform: lowercase;
+    justify-content: center;
+}
+
   .sobre div {
     width: 80%;
     text-align: right;
     transform: translateX(30px);
+    margin: 30px;
   }
 
   .release {
