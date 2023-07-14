@@ -71,7 +71,6 @@ li {
   position: fixed;
   height: 92vh;
   width: 10vw;
-  bottom: 0;
   left: 0;
   z-index: 999;
 }
