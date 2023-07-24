@@ -399,8 +399,10 @@ h1 {
 }
 
 .release-info b {
-border-bottom: solid 1px;
+    border-bottom: solid 1px;
     letter-spacing: -1px;
+    text-transform: lowercase;
+    font-size: 20px;
 }
 
 
