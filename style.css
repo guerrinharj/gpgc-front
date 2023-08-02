@@ -600,7 +600,6 @@ letter-spacing: -2px;
   .artist-name {
     display: block;
     border-bottom: none;
-    letter-spacing: -3px;
     font-size: 25px;
   }
 
