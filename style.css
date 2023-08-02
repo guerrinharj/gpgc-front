@@ -501,7 +501,8 @@ letter-spacing: -2px;
 @media (max-width: 800px) {
 
   body {
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
+    letter-spacing: -1px;
   }
 
   body::-webkit-scrollbar-track {
