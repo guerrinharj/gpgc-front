@@ -652,6 +652,11 @@ letter-spacing: -2px;
     margin-left: 70px;
   }
 
+  .year ul {
+    margin: 0;
+    padding: 0
+  }
+
   .release-box div {
     width: 100%;
     margin: 0;
