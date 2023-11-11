@@ -551,6 +551,10 @@ letter-spacing: -2px;
     text-align: center;
   }
 
+  .releases {
+    margin-top: 14vw
+  }
+
   .releases,
   .trilhas,
   .featurings {
