@@ -503,6 +503,7 @@ letter-spacing: -2px;
   body {
     font-family: Helvetica, sans-serif;
     letter-spacing: -1px;
+    font-weight: 800
   }
 
   body::-webkit-scrollbar-track {
