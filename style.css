@@ -505,6 +505,7 @@ letter-spacing: -2px;
   body {
     font-family: Palatino, Times;
     letter-spacing: -1px;
+    -webkit-font-smoothing: none;
   }
 
   body::-webkit-scrollbar-track {
@@ -601,7 +602,7 @@ letter-spacing: -2px;
   .artist-name {
     display: block;
     border-bottom: none;
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
     text-transform: capitalize;
   }
@@ -703,7 +704,8 @@ letter-spacing: -2px;
 
   .release-info p,
   .release-info ol li {
-    font-size: 20px;
+    letter-spacing: -1px;
+    font-size: 17px;
   }
 
   .embed {
