@@ -58,6 +58,17 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid white;
 }
 
+.texture_overlay {
+  background-size: cover;
+  background-position: center;
+  background-image: url(texturas/texture1_edit.jpg);
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+  position: fixed;
+  /* border: solid 1px red; */
+}
+
 li {
   list-style-type: none;
 }
