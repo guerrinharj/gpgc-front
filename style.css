@@ -58,6 +58,7 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid white;
 }
 
+/*
 .texture_overlay {
   background-size: cover;
   background-position: center;
@@ -66,8 +67,8 @@ body::-webkit-scrollbar-thumb {
   height: 100vh;
   z-index: -10;
   position: fixed;
-  /* border: solid 1px red; */
 }
+*/
 
 li {
   list-style-type: none;
@@ -516,7 +517,6 @@ letter-spacing: -2px;
   body {
     font-family: Palatino, Times;
     letter-spacing: -1px;
-    -webkit-font-smoothing: none;
   }
 
   body::-webkit-scrollbar-track {
